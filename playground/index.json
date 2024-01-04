@@ -4,19 +4,13 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "background": "background.sh",
       "foreground": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "wait-background.sh", "target": "/ks", "chmod": "+x"}
-      ]
     }
   },
   "backend": {
-    "imageid": "kubernetes-k3s-1node-4GB"
+    "imageid": "ubuntu-4GB"
   }
 }
